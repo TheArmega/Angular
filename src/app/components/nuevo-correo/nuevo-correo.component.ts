@@ -8,7 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class NuevoCorreoComponent implements OnInit {
 
-  nuevoCorreo: FormGroup | undefined;
+  nuevoCorreo!: FormGroup;
   submitted = false;
 
   constructor(private formBuilder: FormBuilder) { }
